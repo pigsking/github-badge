@@ -1,0 +1,22 @@
+{
+  "name": "github-badge",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "repository": "https://github.com/pigsking/github-badge.git",
+  "author": "Allen AuYeung <oyqxiao@sina.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-typescript": "^8.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.3"
+  },
+  "browser": "dist/gihub-badge.min.js"
+}
