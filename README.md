@@ -1,7 +1,5 @@
 # github-badge
-
-## Features
-- 不受限于框架
+灵感来源于 [vue-github-badge](https://github.com/egoist/vue-github-badge)，但不受限于框架
 
 ## License
 
